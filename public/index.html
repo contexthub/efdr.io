@@ -2,12 +2,13 @@
 <html>
   <head>
     <meta http-equiv="Content-type" content="text/html; charset=utf-8">
-    <meta http-equiv="Refresh" content="5; url=http://www.echofolder.com">
+    <!--meta http-equiv="Refresh" content="5; url=http://www.echofolder.com"-->
     <title>index</title>
     <script>
     var slug = window.location.hash.slice(1);
     if (slug.length > 0) {
-      window.location.replace = "https://app.echofolder.com/hashtag/" + slug;
+      console.log("redirecting...");
+      window.location = "https://app.echofolder.com/hashtag/" + slug;
     }
     </script>
   </head>
