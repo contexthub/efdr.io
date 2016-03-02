@@ -1,2 +1,2 @@
-web: rackup -p $PORT
+web: bundle exec thing start -p $PORT -e $RACK_ENV
 
